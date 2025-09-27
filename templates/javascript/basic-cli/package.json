@@ -1,0 +1,30 @@
+{
+  "name": "youbuildit-challenge",
+  "version": "1.0.0",
+  "description": "A You Build It coding challenge",
+  "main": "src/index.js",
+  "bin": {
+    "challenge": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "keywords": [
+    "youbuildit",
+    "coding-challenge",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "dependencies": {
+    "commander": "^9.0.0"
+  }
+}
